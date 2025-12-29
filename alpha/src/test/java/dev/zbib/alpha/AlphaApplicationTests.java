@@ -1,10 +1,10 @@
-package dev.zbib.infra;
+package dev.zbib.alpha;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class InfraApplicationTests {
+class AlphaApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package dev.zbib.infra;
+package dev.zbib.alpha;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InfraApplication {
+public class AlphaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InfraApplication.class, args);
+		SpringApplication.run(AlphaApplication.class, args);
 	}
 
 }
