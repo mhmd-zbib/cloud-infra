@@ -92,6 +92,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd ~/cloud-infra
-            git pull
-            kubectl apply -k k8s/overlays/master
+            excho "test"
